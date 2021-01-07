@@ -45,7 +45,7 @@ int sumaTablicy(int *tab){
 
 float sredniaTablicy(int *tab) {
     float srednia = 0;
-    srednia = sumaTablicy(tab) / ROZMIAR_TABLICY;
+    srednia = (float)sumaTablicy(tab) / ROZMIAR_TABLICY;
     return srednia;
 }
 void generujHistogram(int *tab, int* histogram) {
